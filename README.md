@@ -1,73 +1,39 @@
-# Welcome to your Lovable project
+# Verão Welong - Raspadinha
 
-## Project info
+Este é o projeto da campanha "Verão Welong", apresentando um jogo de raspadinha interativo.
 
-**URL**: https://lovable.dev/projects/db26034a-92ac-409e-aa7a-ab32f083cf0e
+## Tecnologias
 
-## How can I edit this code?
+- **React** com **Vite**
+- **TypeScript**
+- **Shadcn UI** & **Tailwind CSS**
 
-There are several ways of editing your application.
+## Funcionalidades
 
-**Use Lovable**
+- Jogo de raspadinha com lógica de vitória controlada.
+- Efeitos sonoros customizados (raspagem e vitória).
+- Integração com links de WhatsApp.
+- Design responsivo e temático (Verão/Amarelo).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/db26034a-92ac-409e-aa7a-ab32f083cf0e) and start prompting.
+## Instalação e Execução
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Instale as dependências:
 
-**Use your preferred IDE**
+   ```bash
+   npm install
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Rode o servidor de desenvolvimento:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+   ```bash
+   npm run dev
+   ```
 
-Follow these steps:
+3. Para fazer o deploy (GitHub Pages):
+   ```bash
+   npm run deploy
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Domínio
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/db26034a-92ac-409e-aa7a-ab32f083cf0e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+O projeto está configurado para rodar em: `https://veraowelong.shop`
