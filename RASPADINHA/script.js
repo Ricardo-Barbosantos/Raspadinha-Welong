@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const winAudio = new Audio('win.mp3');
     const lineAudio = new Audio('line.mp3');
     scratchAudio.loop = true;
-    scratchAudio.volume = 0.15;
+    scratchAudio.volume = 0.2;
 
     // --- Inicialização ---
     function initGame() {
