@@ -1,5 +1,5 @@
 import { MarqueeBanner } from "./MarqueeBanner";
-import mockupImage from "@/assets/mockup-touca-escova.png";
+  import mockupImage from "@/assets/mockup-touca-escova-optimized.jpg";
 
 export const HeroSectionBlackNovember = () => {
   return (
@@ -19,6 +19,8 @@ export const HeroSectionBlackNovember = () => {
             src={mockupImage} 
             alt="Welong Hair - Tratamento Capilar Completo" 
             className="w-full h-auto rounded-lg"
+            fetchPriority="high"
+            loading="eager"
           />
         </div>
 
