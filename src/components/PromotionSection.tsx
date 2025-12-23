@@ -16,7 +16,8 @@ export const PromotionSection = () => {
         </h2>
 
         <p className="text-base mb-4">
-          Comprando ainda hoje, você recebe 3 brindes especiais totalmente grátis:
+          Comprando ainda hoje, você recebe 2 brindes especiais totalmente grátis:
+
         </p>
 
         <ul className="space-y-2 mb-6 text-left">
@@ -28,10 +29,7 @@ export const PromotionSection = () => {
             <span className="text-lg flex-shrink-0">✅</span>
             <span>Touca anti-frizz profissional</span>
           </li>
-          <li className="flex items-start gap-2 text-base">
-            <span className="text-lg flex-shrink-0">✅</span>
-            <span>Necessaire exclusiva Welong</span>
-          </li>
+
         </ul>
 
         <div className="flex items-start gap-2 bg-yellow-50 border border-yellow-300 text-yellow-800 px-4 py-3 rounded-lg mb-6 text-left">
