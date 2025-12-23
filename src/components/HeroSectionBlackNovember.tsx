@@ -3,15 +3,14 @@ import mockupImage from "@/assets/mockup-touca-escova.png";
 
 export const HeroSectionBlackNovember = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-gradient-to-l from-yellow-100/40 via-white to-white">
       <div className="py-4 px-4 pt-16">
       <div className="max-w-2xl mx-auto text-center">
         <h1 className="text-2xl md:text-4xl font-black mb-2 text-yellow-400 uppercase tracking-tight leading-tight">
-          Black November<br />
-          Welong Hair
+          Verão Welong
         </h1>
         
-        <h2 className="text-xl md:text-2xl font-bold mb-6 text-white">
+        <h2 className="text-xl md:text-2xl font-bold mb-6 text-black">
           🚨 É o fim da queda de cabelo!
         </h2>
         
@@ -24,7 +23,7 @@ export const HeroSectionBlackNovember = () => {
         </div>
 
         
-        <p className="text-base md:text-lg text-gray-300 mb-2">
+        <p className="text-base md:text-lg text-gray-700 mb-2">
           Conheça o tratamento que está transformando a autoestima de milhares de mulheres no Brasil!
         </p>
       </div>

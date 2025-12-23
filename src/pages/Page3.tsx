@@ -9,7 +9,7 @@ import { FixedTopBanner } from "@/components/FixedTopBanner";
 
 const Page3 = () => {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-white">
       <FixedTopBanner />
       <HeroSectionBlackNovember />
       <ProductInfo />

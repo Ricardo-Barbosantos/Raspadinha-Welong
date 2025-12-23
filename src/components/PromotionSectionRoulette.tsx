@@ -8,7 +8,7 @@ export const PromotionSectionRoulette = () => {
   return (
     <>
       <ScratchCardDialog open={showGift} onOpenChange={setShowGift} />
-    <section className="py-6 px-4 bg-white">
+    <section className="py-6 px-4">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-xl md:text-2xl font-bold mb-6 uppercase flex items-center justify-center gap-2">
           <span className="text-2xl">🎁</span>

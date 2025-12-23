@@ -16,14 +16,14 @@ export const MarqueeBanner = () => {
         <div className="flex whitespace-nowrap shrink-0">
           {Array(8).fill(null).map((_, i) => (
             <span key={i} className="inline-block text-black font-bold text-base px-8 uppercase">
-              🎰 Gire a roleta e ganhe cupom de desconto exclusivo! 
+              🎰 Raspe e ganhe cupom de desconto exclusivo! 
             </span>
           ))}
         </div>
         <div className="flex whitespace-nowrap shrink-0">
           {Array(8).fill(null).map((_, i) => (
             <span key={i} className="inline-block text-black font-bold text-base px-8 uppercase">
-              🎰 Gire a roleta e ganhe cupom de desconto exclusivo! 
+              🎰 Raspe e ganhe cupom de desconto exclusivo! 
             </span>
           ))}
         </div>
