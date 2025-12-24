@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verão Welong</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta
+      name="description"
+      content="Aproveite a oferta de Verão, combata a queda capilar. Resultados comprovados, sem efeitos colaterais. Brindes grátis por tempo limitado!"
+    />
+    <meta name="author" content="Welong Hair" />
+    <meta
+      name="keywords"
+      content="verão welong, welong hair, oferta verão, desconto capilar, anti-queda, anti-frizz, crescimento capilar, kit capilar, promoção"
+    />
+
+    <!-- Open Graph / SEO -->
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:title" content="Verão Welong" />
+    <meta
+      property="og:description"
+      content="Aproveite a oferta de Verão, combata a queda capilar. Resultados comprovados, sem efeitos colaterais. Brindes grátis por tempo limitado!"
+    />
+    <link rel="canonical" href="https://welonghair.com" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+            },
+            colors: {
+              "ds-primary": "#0f172a",
+              "ds-secondary": "#1e293b",
+              "ds-cta-primary": "#059669",
+              "ds-cta-hover": "#047857",
+              "ds-cta-secondary": "#d97706",
+              "ds-surface-white": "#ffffff",
+              "black-november-gold": "#fbbf24",
+              // Summer palette
+              "mellow-yellow": "#FBBF24",
+              "purist-blue": "#60A5FA",
+              cantaloupe: "#FDBA74",
+              "neo-mint": "#4ADE80",
+              cassis: "#A78BFA",
+            },
+            backgroundImage: {
+              "gradient-hd-sky":
+                "linear-gradient(to bottom, #bae6fd, #e0f2fe, #f0f9ff)",
+            },
+            boxShadow: {
+              glow: "0 0 20px rgba(251, 191, 36, 0.5)",
+              card: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* Remove default outlines */
+      *:focus {
+        outline: none !important;
+      }
+
+      .animate-marquee {
+        display: inline-block;
+        animation: marquee 45s linear infinite;
+      }
+
+      @keyframes marquee {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      /* Lightning Effect Animation */
+      @keyframes lightning-flash {
+        0% {
+          opacity: 0;
+          transform: scale(1) rotate(0deg);
+        }
+        10% {
+          opacity: 0.3;
+        }
+        20% {
+          opacity: 0;
+        }
+        30% {
+          opacity: 0.3;
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1.5) rotate(0deg);
+        }
+      }
+
+      .lightning-bolt {
+        position: absolute;
+        background-color: #fde047; /* yellow-300 */
+        width: 2px;
+        height: 100px;
+        box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+        animation: pulse-flash 0.2s ease-out forwards;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      @keyframes pulse-flash {
+        0% {
+          opacity: 0.3;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      /* Summer Icons Positioning */
+      .summer-icon {
+        position: absolute;
+      }
+    </style>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "611581109896533");
+      fbq("track", "ViewContent");
+    </script>
+  </head>
+  <body class="bg-[#e0f2fe] overflow-x-hidden">
+    <!-- NoScript -->
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=611581109896533&ev=ViewContent&noscript=1"
+    /></noscript>
+
+    <div class="min-h-screen bg-gradient-hd-sky relative overflow-hidden">
+      <!-- Faixa Vermelha com Cupom -->
+      <div
+        class="fixed top-0 left-0 right-0 w-full py-1.5 sm:py-2 shadow-lg z-50 bg-orange-500"
+        style="background-color: #f97316"
+      >
+        <div class="container mx-auto text-center">
+          <p class="text-white text-sm sm:text-base font-bold tracking-wide">
+            🌊CUPOM JÁ APLICADO, APROVEITE🏄
+          </p>
+        </div>
+      </div>
+
+      <!-- Summer Icons Background -->
+      <div
+        class="absolute top-0 left-0 right-0 pointer-events-none z-[5] overflow-hidden"
+        style="height: 600px"
+        id="summer-icons-container"
+      >
+        <!-- Icons injected by JS -->
+      </div>
+
+      <!-- Header & Hero Wrapper -->
+      <div
+        class="pt-10 sm:pt-12 bg-cover bg-center"
+        style="background-image: url('assets/hero-beach.png')"
+      >
+        <!-- Header -->
+        <header class="relative z-10 py-1 sm:py-6 px-0 sm:px-4">
+          <div class="container mx-auto flex justify-center">
+            <div class="relative">
+              <img
+                src="assets/welong-logo-summer-v2-user.png"
+                alt="Welong Hair"
+                class="h-32 w-32 sm:h-36 sm:w-36 md:h-40 md:w-40 lg:h-44 lg:w-44 object-contain"
+              />
+            </div>
+          </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="relative z-10 px-0 sm:px-4">
+          <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-6 sm:mb-8">
+              <div class="relative w-full max-w-3xl mx-auto mb-8">
+                <img
+                  src="assets/PLACA-VERAO.png"
+                  alt="Oferta Verão Welong"
+                  class="w-full h-auto drop-shadow-xl"
+                />
+
+                <div
+                  class="absolute bottom-2 sm:bottom-auto sm:top-[75%] left-1/2 -translate-x-1/2 sm:-translate-y-1/2 w-[90%] sm:w-[85%] md:w-[80%]"
+                >
+                  <!-- Countdown Component -->
+                  <div
+                    id="countdown-root"
+                    class="bg-transparent shadow-none border-none !py-0 sm:!p-6"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- Marquee -->
+              <div
+                class="overflow-hidden whitespace-nowrap py-4 mt-4 sm:mt-6 md:mt-8 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] shadow-glow bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-400"
+              >
+                <div
+                  class="animate-marquee inline-block text-base sm:text-lg md:text-xl text-black font-bold"
+                >
+                  🌴🌅 OFERTA DE VERÃO ⭐ 15% OFF ⭐ APROVEITE AGORA🌅🌴 🌴🌅
+                  OFERTA DE VERÃO ⭐ 15% OFF ⭐ APROVEITE AGORA🌅🌴 🌴🌅 OFERTA
+                  DE VERÃO ⭐ 15% OFF ⭐ APROVEITE AGORA🌅🌴 🌴🌅 OFERTA DE
+                  VERÃO ⭐ 15% OFF ⭐ APROVEITE AGORA🌅🌴 🌴🌅 OFERTA DE VERÃO
+                  ⭐ 15% OFF ⭐ APROVEITE AGORA🌅🌴
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Linha Crescimento e Antiqueda -->
+      <section
+        class="relative z-10 py-2 sm:py-10 md:py-12 px-0 sm:px-4 bg-white/50 my-4 sm:my-8 rounded-3xl mx-2 sm:mx-8 shadow-sm"
+      >
+        <div class="container mx-auto max-w-7xl">
+          <div
+            class="text-center mb-0 sm:mb-10 md:mb-12 mt-8 sm:mt-12 md:mt-16"
+          >
+            <div
+              class="flex items-center justify-center gap-1 sm:gap-2 md:gap-3 mb-4 sm:mb-6"
+            >
+              <i
+                data-lucide="zap"
+                class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ds-secondary flex-shrink-0"
+              ></i>
+              <h2
+                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-ds-secondary text-center px-6 py-2 bg-white/40 backdrop-blur-sm rounded-2xl shadow-sm border border-white/50"
+              >
+                LINHA CRESCIMENTO E ANTIQUEDA
+              </h2>
+              <i
+                data-lucide="zap"
+                class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ds-secondary flex-shrink-0"
+              ></i>
+            </div>
+            <div class="flex justify-center gap-2">
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+            </div>
+          </div>
+
+          <div
+            id="antiqueda-grid"
+            class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6 sm:gap-3 max-w-7xl mx-auto"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Linha Cápsulas -->
+      <section
+        class="relative z-10 py-2 sm:py-10 md:py-12 px-0 sm:px-4 bg-white/50 my-4 sm:my-8 rounded-3xl mx-2 sm:mx-8 shadow-sm"
+      >
+        <div class="container mx-auto max-w-7xl">
+          <div
+            class="text-center mb-0 sm:mb-10 md:mb-12 mt-8 sm:mt-12 md:mt-16"
+          >
+            <div
+              class="flex items-center justify-center gap-1 sm:gap-2 md:gap-3 mb-4 sm:mb-6"
+            >
+              <i
+                data-lucide="zap"
+                class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ds-secondary flex-shrink-0"
+              ></i>
+              <h2
+                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-ds-secondary text-center px-6 py-2 bg-white/40 backdrop-blur-sm rounded-2xl shadow-sm border border-white/50"
+              >
+                Vitaminas Cabelo, pele e unhas
+              </h2>
+              <i
+                data-lucide="zap"
+                class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ds-secondary flex-shrink-0"
+              ></i>
+            </div>
+            <div class="flex justify-center gap-2">
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+            </div>
+          </div>
+
+          <div
+            id="capsulas-grid"
+            class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6 sm:gap-3 max-w-7xl mx-auto"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Linha Antifrizz -->
+      <section
+        class="relative z-10 py-2 sm:py-10 md:py-12 px-0 sm:px-4 bg-white/50 my-4 sm:my-8 rounded-3xl mx-2 sm:mx-8 shadow-sm"
+      >
+        <div class="container mx-auto max-w-7xl">
+          <div class="text-center mb-6 sm:mb-10 md:mb-12 mt-2 sm:mt-4 md:mt-6">
+            <div
+              class="flex items-center justify-center gap-2 sm:gap-3 mb-4 sm:mb-6"
+            >
+              <i
+                data-lucide="zap"
+                class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ds-secondary"
+              ></i>
+              <h2
+                class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-ds-secondary text-center px-6 py-2 bg-white/40 backdrop-blur-sm rounded-2xl shadow-sm border border-white/50"
+              >
+                LINHA ANTIFRIZZ
+              </h2>
+              <i
+                data-lucide="zap"
+                class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ds-secondary"
+              ></i>
+            </div>
+            <div class="flex justify-center gap-2">
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+              <i
+                data-lucide="flame"
+                class="w-4 h-4 text-ds-cta-secondary opacity-80"
+              ></i>
+            </div>
+          </div>
+
+          <div
+            id="antifrizz-grid"
+            class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6 sm:gap-3 max-w-7xl mx-auto"
+          ></div>
+        </div>
+      </section>
+
+      <!-- WhatsApp CTA -->
+      <section class="relative z-10 py-2 sm:py-10 md:py-12 px-0 sm:px-4">
+        <div class="container mx-auto max-w-4xl text-center">
+          <img
+            src="assets/whatsapp-button.webp"
+            alt="Compre pelo WhatsApp"
+            class="mx-auto w-[300px] max-w-[90%] cursor-pointer transition-transform hover:scale-105"
+            onclick="openWhatsApp()"
+          />
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="relative z-10 py-2 sm:py-8 px-0 sm:px-4 border-t border-black-november-gold/30"
+      >
+        <div class="container mx-auto text-center">
+          <div class="flex justify-center mb-4 gap-3 text-black">
+            <i data-lucide="zap" class="w-4 h-4 text-black"></i>
+            <i data-lucide="flame" class="w-4 h-4 text-black"></i>
+            <i data-lucide="zap" class="w-4 h-4 text-[#120707]"></i>
+          </div>
+          <p class="text-xs sm:text-sm font-semibold text-black">
+            © 2025 Welong Hair. Todos os direitos reservados.
+          </p>
+          <p class="text-sm mt-2 font-bold text-black">
+            🏄‍♀️ Oferta de Verão - Descontos Imperdíveis ☀️
+          </p>
+        </div>
+      </footer>
+
+      <!-- Floating WhatsApp Button -->
+      <div class="fixed bottom-4 left-4 z-[999]">
+        <img
+          src="assets/whatsapp-float.png"
+          alt="WhatsApp"
+          class="w-16 h-16 cursor-pointer hover:scale-110 transition-transform drop-shadow-md"
+          onclick="openWhatsApp()"
+        />
+      </div>
+    </div>
+
+    <!-- MAIN JAVASCRIPT LOGIC -->
+    <script>
+        // --- 0. LIGHTNING EFFECT LOGIC ---
+        function startLightningEffect() {
+            const container = document.body; // or a specific container
+            
+            function createFlash() {
+                const id = Date.now();
+                const left = Math.random() * 100;
+                const top = Math.random() * 100; // Cover mostly the top part
+                const scale = 0.5 + Math.random();
+                const rotation = Math.random() * 45 - 22.5;
+
+                const flash = document.createElement('div');
+                flash.className = 'lightning-bolt';
+                flash.style.left = `${left}%`;
+                flash.style.top = `${top}%`;
+                flash.style.transform = `scale(${scale}) rotate(${rotation}deg)`;
+                
+                // Ensure it's behind content but visible
+                flash.style.zIndex = '0';
+                
+                document.body.appendChild(flash);
+
+                // Remove after animation
+                setTimeout(() => {
+                    flash.remove();
+                }, 200);
+            }
+
+            // Interval to create flashes
+            setInterval(() => {
+                if (Math.random() > 0.7) { // 30% chance to flash every 2s
+                    createFlash();
+                }
+            }, 2000);
+        }
+
+        // --- 1. COUNTDOWN LOGIC ---
+      function startCountdown() {
+        let timeLeft = { hours: 0, minutes: 5, seconds: 0 };
+        const today = new Date().toLocaleDateString("pt-BR");
+
+        function updateDisplay() {
+          const root = document.getElementById("countdown-root");
+          root.innerHTML = `
+                <div class="flex flex-col items-center justify-center p-4 sm:p-6 md:p-8 lg:p-10 rounded-xl sm:rounded-2xl lg:rounded-3xl border border-border shadow-card max-w-2xl mx-auto bg-transparent shadow-none border-none">
+                    <div class="flex items-center gap-3 sm:gap-4 md:gap-6 text-center mb-1 sm:mb-6">
+                        <div class="flex flex-col items-center">
+                            <div class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white drop-shadow-md">
+                                ${String(timeLeft.minutes).padStart(2, '0')}
+                            </div>
+                            <div class="text-xs sm:text-sm md:text-base text-white/80 uppercase tracking-wider font-bold drop-shadow-sm">
+                                MINUTOS
+                            </div>
+                        </div>
+
+                        <div class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white drop-shadow-md -mt-4 sm:mt-0">:</div>
+
+                        <div class="flex flex-col items-center">
+                            <div class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white drop-shadow-md">
+                                ${String(timeLeft.seconds).padStart(2, '0')}
+                            </div>
+                            <div class="text-xs sm:text-sm md:text-base text-white/80 uppercase tracking-wider font-bold drop-shadow-sm">
+                                SEGUNDOS
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-center text-white/90 text-xs sm:text-sm md:text-base lg:text-lg px-2 sm:px-4 leading-relaxed font-poppins font-bold drop-shadow-md">
+                        Aproveite esta oferta limitada - Válida somente por hoje (${today})
+                    </p>
+                </div>
+                `;
+        }
+
+        setInterval(() => {
+          if (timeLeft.seconds > 0) {
+            timeLeft.seconds--;
+          } else if (timeLeft.minutes > 0) {
+            timeLeft.seconds = 59;
+            timeLeft.minutes--;
+          } else if (timeLeft.hours > 0) {
+            timeLeft.seconds = 59;
+            timeLeft.minutes = 59;
+            timeLeft.hours--;
+          }
+          updateDisplay();
+        }, 1000);
+        updateDisplay();
+      }
+
+      // --- 2. PRODUCT DATA ---
+
+      // Define Badge Styles Map
+      const badgeStyles = {
+        blue: "bg-blue-600 text-white",
+        green: "bg-green-600 text-white",
+        purple: "bg-purple-600 text-white",
+        orange: "bg-orange-500 text-white",
+        teal: "bg-teal-500 text-white",
+      };
+
+      const antiquedaProducts = [
+        {
+          image: "assets/kit-crescimento-8-updated.png",
+          title: "8 TÔNICOS + 2 SHAMPOOS + 2 CONDICIONADORES",
+          daysOfUse: "300 dias de uso",
+          unitPrice: "Cada unidade por R$ 42",
+          originalPrice: "de R$ 597 por",
+          currentPrice: "R$ 507",
+          badge: "MAIS COMPLETO",
+          badgeColor: "blue",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 90",
+          purchaseUrl: "https://seguro.welong.com.br/r/8XS231Z2E2",
+        },
+        {
+          image: "assets/kit-crescimento-5.png",
+          title: "5 TÔNICOS + 1 SHAMPOO + 1 CONDICIONADOR",
+          daysOfUse: "180 dias de uso",
+          unitPrice: "Cada unidade por R$ 48",
+          originalPrice: "de R$ 397 por",
+          currentPrice: "R$ 337",
+          badge: "MAIS VENDIDO",
+          badgeColor: "green",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 60",
+          purchaseUrl: "https://seguro.welong.com.br/r/LJRKLC27ZM",
+        },
+        {
+          image: "assets/kit-crescimento-3-completo.png",
+          title: "3 TÔNICOS + 1 SHAMPOO + 1 CONDICIONADOR",
+          daysOfUse: "90 dias de uso",
+          unitPrice: "Kit completo",
+          originalPrice: "de R$ 297 por",
+          currentPrice: "R$ 252",
+          badgeColor: "purple",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 45",
+          purchaseUrl: "https://seguro.welong.com.br/r/FD4K9PSQAM",
+        },
+        {
+          image: "assets/kit-crescimento-3.png",
+          title: "3 UNIDADES TÔNICO WELONG HAIR",
+          daysOfUse: "90 dias de uso",
+          unitPrice: "Cada unidade por R$ 56",
+          originalPrice: "de R$ 193 por",
+          currentPrice: "R$ 167",
+          badgeColor: "orange",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 26",
+          purchaseUrl: "https://seguro.welong.com.br/r/I12JQ9EW62",
+        },
+        {
+          image: "assets/kit-crescimento-1.png",
+          title: "1 UNIDADE TÔNICO WELONG HAIR",
+          daysOfUse: "30 dias de uso",
+          unitPrice: "Cada unidade por R$ 133",
+          originalPrice: "de R$ 154 por",
+          currentPrice: "R$ 133",
+          badgeColor: "teal",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 21",
+          purchaseUrl: "https://seguro.welong.com.br/r/PMTH7XOQT0",
+        },
+      ];
+
+      const capsulasProducts = [
+        {
+          image: "assets/capsulas-10-unidades.png",
+          title: "10 UNIDADES CÁPSULAS WELONG",
+          daysOfUse: "300 Dias de Uso",
+          unitPrice: "Cada unidade por R$ 42",
+          originalPrice: "de R$ 485 por",
+          currentPrice: "R$ 422",
+          badge: "MAIS COMPLETO",
+          badgeColor: "blue",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 63",
+          purchaseUrl:
+            "https://seguro.welong.com.br/r/6BB23EZVL0?utm_source=Natal&utm_medium=lg4&utm_campaign=Roleta",
+        },
+        {
+          image: "assets/capsulas-5-unidades.png",
+          title: "5 UNIDADES CÁPSULAS WELONG",
+          daysOfUse: "150 Dias de Uso",
+          unitPrice: "Cada unidade por R$ 50",
+          originalPrice: "de R$ 291 por",
+          currentPrice: "R$ 252",
+          badge: "MAIS VENDIDO",
+          badgeColor: "green",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 39",
+          purchaseUrl:
+            "https://seguro.welong.com.br/r/3BHQ3J94UY?utm_source=Natal&utm_medium=lg4&utm_campaign=Roleta",
+        },
+        {
+          image: "assets/capsulas-kit-completo.png",
+          title: "KIT COMPLETO CÁPSULAS + TÔNICO + SHAMPOO + CONDICIONADOR",
+          daysOfUse: "180 Dias de Uso",
+          unitPrice: "Kit completo",
+          originalPrice: "de R$ 241 por",
+          currentPrice: "R$ 210",
+          badgeColor: "purple",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 31",
+          purchaseUrl:
+            "https://seguro.welong.com.br/b/R5B1ET8PDK0K?utm_source=Natal&utm_medium=lg4&utm_campaign=Roleta",
+        },
+        {
+          image: "assets/capsulas-3-unidades.png",
+          title: "3 UNIDADES CÁPSULAS WELONG",
+          daysOfUse: "90 Dias de Uso",
+          unitPrice: "Cada unidade por R$ 56",
+          originalPrice: "de R$ 193 por",
+          currentPrice: "R$ 167",
+          badgeColor: "orange",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 26",
+          purchaseUrl:
+            "https://seguro.welong.com.br/r/87M0S32RWQ?utm_source=Natal&utm_medium=lg4&utm_campaign=Roleta",
+        },
+        {
+          image: "assets/capsulas-1-unidade.png",
+          title: "1 UNIDADE CÁPSULAS WELONG",
+          daysOfUse: "30 Dias de Uso",
+          unitPrice: "Cada unidade por R$ 133",
+          originalPrice: "de R$ 154 por",
+          currentPrice: "R$ 133",
+          badgeColor: "teal",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 21",
+          purchaseUrl:
+            "https://seguro.welong.com.br/checkout?utm_source=Natal&utm_campaign=Roleta&utm_medium=lg4&skipToCheckout=1&tokenReference=2O3C5G3PYL",
+        },
+      ];
+
+      const antiFrizzProducts = [
+        {
+          image: "assets/kit-antifrizz-12.png",
+          title: "12 UNIDADES ANTIFRIZZ WELONG HAIR",
+          daysOfUse: "365 Dias de Uso",
+          unitPrice: "Cada unidade por R$ 42",
+          originalPrice: "de R$ 597 por",
+          currentPrice: "R$ 507",
+          badge: "MAIS COMPLETO",
+          badgeColor: "blue",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 90",
+          purchaseUrl: "https://seguro.welong.com.br/r/EKBPIOTT2X",
+        },
+        {
+          image: "assets/kit-antifrizz-6.png",
+          title: "6 UNIDADES ANTIFRIZZ WELONG HAIR",
+          daysOfUse: "180 Dias de Uso",
+          unitPrice: "Cada unidade por R$ 56",
+          originalPrice: "de R$ 397 por",
+          currentPrice: "R$ 337",
+          badge: "MAIS VENDIDO",
+          badgeColor: "green",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 60",
+          purchaseUrl: "https://seguro.welong.com.br/r/5346O6ROMB",
+        },
+        {
+          image: "assets/kit-antifrizz-3-brindes.png",
+          title: "3 UNIDADES ANTIFRIZZ + SHAMPOO E CONDICIONADOR",
+          daysOfUse: "150 Dias de Uso",
+          unitPrice: "Kit completo",
+          originalPrice: "de R$ 297 por",
+          currentPrice: "R$ 252",
+          badgeColor: "purple",
+          shippingText: "Frete Grátis + Brindes",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 45",
+          purchaseUrl: "https://seguro.welong.com.br/r/EZ07XXUVL8",
+        },
+        {
+          image: "assets/kit-antifrizz-3.png",
+          title: "3 UNIDADES ANTIFRIZZ WELONG HAIR",
+          daysOfUse: "90 dias de Uso",
+          unitPrice: "Cada unidade por R$ 56",
+          originalPrice: "de R$ 193 por",
+          currentPrice: "R$ 167",
+          badgeColor: "orange",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 26",
+          purchaseUrl: "https://seguro.welong.com.br/r/K85541H6H2",
+        },
+        {
+          image: "assets/kit-antifrizz-1.png",
+          title: "1 UNIDADE ANTIFRIZZ WELONG HAIR",
+          daysOfUse: "30 dias de Uso",
+          unitPrice: "Cada unidade por R$ 133",
+          originalPrice: "de R$ 154 por",
+          currentPrice: "R$ 133",
+          badgeColor: "teal",
+          discountPercentage: 15,
+          showDiscountBadge: true,
+          discountAmount: "R$ 21",
+          purchaseUrl: "https://seguro.welong.com.br/r/9KRT6F4R0A",
+        },
+      ];
+
+      function renderProducts(products, containerId) {
+        const container = document.getElementById(containerId);
+        container.innerHTML = products
+          .map((product) => {
+            // Top Badge (Mais Completo / Mais Vendido)
+            let topBadgeHtml = "";
+            if (
+              product.badge &&
+              (product.badge === "MAIS COMPLETO" ||
+                product.badge === "MAIS VENDIDO")
+            ) {
+              const colorClass = badgeStyles[product.badgeColor || "blue"];
+              topBadgeHtml = `
+                        <div class="absolute -top-2 left-1/2 transform -translate-x-1/2 z-10">
+                            <span class="${colorClass} px-3 py-1 sm:px-4 sm:py-1 text-xs sm:text-sm font-bold rounded-full shadow-lg whitespace-nowrap">
+                                ${product.badge}
+                            </span>
+                        </div>
+                    `;
+            }
+
+            // Regular Badge (not top ones)
+            let regularBadgeHtml = "";
+            if (
+              product.badge &&
+              product.badge !== "MAIS COMPLETO" &&
+              product.badge !== "MAIS VENDIDO"
+            ) {
+              const colorClass = badgeStyles[product.badgeColor || "blue"];
+              regularBadgeHtml = `
+                        <div class="flex justify-center mb-4 sm:mb-4 px-3 sm:px-0">
+                            <span class="${colorClass} px-3 sm:px-4 py-2 sm:py-2 text-sm sm:text-sm font-bold rounded-full shadow-sm">
+                                ${product.badge}
+                            </span>
+                        </div>
+                    `;
+            }
+
+            // Discount Badge (on image)
+            let discountBadgeHtml = "";
+            if (product.showDiscountBadge) {
+              discountBadgeHtml = `
+                        <div class="absolute top-4 right-4 z-10">
+                            <span class="bg-rose-600 text-white px-3 py-2 text-sm font-bold rounded-full shadow-md">
+                                ${product.discountPercentage}% OFF
+                            </span>
+                        </div>
+                    `;
+            }
+
+            // Promo Text
+            let promoTextHtml = "";
+            if (product.showDiscountBadge) {
+              promoTextHtml = `
+                        <div class="flex items-center justify-center gap-1 sm:gap-2 mb-3 px-2">
+                            <span class="text-xs sm:text-sm font-bold text-amber-800 uppercase tracking-wide text-center leading-tight bg-amber-100 px-3 py-1 rounded-full">
+                                Promoção Especial
+                            </span>
+                        </div>
+                    `;
+            }
+
+            // Savings Amount
+            let savingsHtml = "";
+            if (product.discountAmount && product.showDiscountBadge) {
+              savingsHtml = `
+                        <div class="flex items-center justify-center gap-1 sm:gap-2 mb-2 px-2">
+                            <span class="text-xs sm:text-sm font-bold text-green-800 px-3 sm:px-3 py-1 rounded-full whitespace-nowrap bg-green-100">
+                                Economize ${product.discountAmount}
+                            </span>
+                        </div>
+                    `;
+            }
+
+            // Title size class
+            const titleSizeClass =
+              product.title.length > 40
+                ? "text-base sm:text-xs md:text-sm lg:text-base"
+                : "text-lg sm:text-sm md:text-base lg:text-lg";
+
+            return `
+                <div class="min-h-[440px] sm:min-h-[550px] lg:min-h-[600px]">
+                    <div class="flex flex-col h-full relative">
+                        ${topBadgeHtml}
+                        <div class="relative bg-white rounded-xl sm:rounded-2xl lg:rounded-3xl py-1 px-0 sm:p-4 lg:p-6 h-full flex flex-col justify-between shadow-lg sm:border sm:border-gray-200 min-h-[420px] sm:min-h-[520px] lg:min-h-[560px]">
+                            
+                            <!-- Image -->
+                            <div class="mb-4 sm:mb-4 lg:mb-6 mx-0 sm:-mx-4 lg:-mx-6 -mt-1 sm:-mt-4 lg:-mt-6 relative">
+                                <img src="${product.image}" alt="${
+              product.title
+            }" class="block w-full h-auto sm:h-48 md:h-52 lg:h-60 xl:h-64 object-contain rounded-t-xl sm:rounded-t-2xl lg:rounded-t-3xl bg-gray-50" style="object-position: center top;">
+                                ${discountBadgeHtml}
+                            </div>
+
+                            ${regularBadgeHtml}
+
+                            <!-- Info -->
+                            <div class="text-center mb-6 sm:mb-4 flex-grow flex flex-col px-3 sm:px-0 space-y-2">
+                                <div class="h-auto min-h-[5rem] lg:h-24 xl:h-20 flex items-center justify-center mb-2">
+                                    <h3 class="font-bold text-slate-900 leading-tight px-1 text-center ${titleSizeClass}">
+                                        ${product.title}
+                                    </h3>
+                                </div>
+                                <p class="text-gray-700 text-base sm:text-sm md:text-base mb-4 font-semibold">
+                                    ${product.daysOfUse}
+                                </p>
+                                ${
+                                  product.unitPrice
+                                    ? `<p class="text-gray-500 text-sm sm:text-sm mb-4">${product.unitPrice}</p>`
+                                    : ""
+                                }
+                            </div>
+
+                            <!-- Pricing -->
+                            <div class="text-center mb-4 sm:mb-4 px-3 sm:px-0">
+                                ${promoTextHtml}
+                                ${
+                                  product.originalPrice
+                                    ? `<div class="text-gray-500 text-lg sm:text-xl md:text-2xl line-through mb-2 font-medium">${product.originalPrice}</div>`
+                                    : ""
+                                }
+                                <div class="relative">
+                                    <div class="text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 text-slate-900">
+                                        ${product.currentPrice}
+                                    </div>
+                                </div>
+                                ${savingsHtml}
+                            </div>
+
+                            <!-- Button -->
+                            <div class="px-3 sm:px-0">
+                                <button class="w-full bg-[#059669] hover:bg-[#047857] text-white font-bold py-4 px-4 sm:py-4 sm:px-6 md:py-5 md:px-8 rounded-xl sm:rounded-2xl text-base sm:text-base md:text-lg lg:text-xl transition-all duration-300 hover:shadow-lg flex items-center justify-center whitespace-normal break-words text-center min-h-[56px] sm:min-h-[52px] md:min-h-[56px] shadow-md" onclick="window.open('${
+                                  product.purchaseUrl
+                                }', '_blank')">
+                                    COMPRAR AGORA
+                                </button>
+                            </div>
+
+                            <!-- Shipping -->
+                            <div class="flex items-center justify-center gap-2 mt-3 mb-1 px-3 sm:px-0">
+                                <span class="text-base sm:text-sm">🚛</span>
+                                <span class="text-sm sm:text-sm font-semibold text-gray-700">${
+                                  product.shippingText || "Frete Grátis"
+                                }</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>`;
+          })
+          .join("");
+      }
+
+      // --- 3. SUMMER ICONS DECORATION ---
+      function renderSummerIcons() {
+        const icons = [
+          // Ícones visíveis em todas as telas
+          {
+            icon: "sun",
+            color: "text-yellow-400/60",
+            size: "w-6 h-6",
+            top: "50px",
+            left: "15%",
+            showMobile: true,
+          },
+          {
+            emoji: "🏖️",
+            size: "text-2xl",
+            top: "100px",
+            left: "85%",
+            showMobile: true,
+          },
+          {
+            icon: "waves",
+            color: "text-blue-400/60",
+            size: "w-5 h-5",
+            top: "30px",
+            left: "75%",
+            showMobile: true,
+          },
+          {
+            icon: "sun",
+            color: "text-orange-300/50",
+            size: "w-4 h-4",
+            top: "70px",
+            left: "10%",
+            showMobile: true,
+          },
+          {
+            emoji: "🏄",
+            size: "text-xl",
+            top: "40px",
+            left: "88%",
+            showMobile: false,
+          },
+          {
+            icon: "waves",
+            color: "text-green-400/55",
+            size: "w-5 h-5",
+            top: "20px",
+            left: "22%",
+            showMobile: false,
+          },
+          {
+            emoji: "🌴",
+            size: "text-lg",
+            top: "55px",
+            left: "92%",
+            showMobile: false,
+          },
+
+          // Área do logo
+          {
+            icon: "sun",
+            color: "text-purple-400/55",
+            size: "w-5 h-5",
+            top: "130px",
+            left: "20%",
+            showMobile: false,
+          },
+          {
+            emoji: "🐚",
+            size: "text-lg",
+            top: "150px",
+            left: "80%",
+            showMobile: true,
+          },
+          {
+            icon: "sun",
+            color: "text-yellow-400/55",
+            size: "w-5 h-5",
+            top: "170px",
+            left: "12%",
+            showMobile: false,
+          },
+          {
+            icon: "waves",
+            color: "text-blue-400/55",
+            size: "w-4 h-4",
+            top: "120px",
+            left: "85%",
+            showMobile: false,
+          },
+          {
+            emoji: "🌊",
+            size: "text-lg",
+            top: "145px",
+            left: "15%",
+            showMobile: false,
+          },
+
+          // More icons... (simplified for brevity but keeping key ones)
+          {
+            emoji: "🏄‍♀️",
+            size: "text-xl",
+            top: "200px",
+            left: "82%",
+            showMobile: false,
+          },
+          {
+            emoji: "☀️",
+            size: "text-xl",
+            top: "230px",
+            left: "8%",
+            showMobile: true,
+          },
+          {
+            icon: "waves",
+            color: "text-green-400/60",
+            size: "w-6 h-6",
+            top: "240px",
+            left: "90%",
+            showMobile: true,
+          },
+        ];
+
+        const container = document.getElementById("summer-icons-container");
+        const iconHtml = icons
+          .map((item, index) => {
+            const displayClass = !item.showMobile ? "hidden sm:block" : "";
+            let content = "";
+            if (item.icon) {
+              content = `<i data-lucide="${item.icon}" class="${item.color} w-full h-full"></i>`;
+            } else {
+              content = `<span class="opacity-70">${item.emoji}</span>`;
+            }
+
+            return `
+                    <div class="summer-icon ${item.size} ${displayClass}" style="top: ${item.top}; left: ${item.left};">
+                        ${content}
+                    </div>
+                `;
+          })
+          .join("");
+
+        container.innerHTML = iconHtml;
+      }
+
+      // --- 4. WHATSAPP LOGIC ---
+      function openWhatsApp() {
+        const phoneNumber = "5511911725889";
+        const message = encodeURIComponent(
+          "👋 Olá! Gostaria de um kit personalizado da Welong Hair!"
+        );
+        window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+      }
+
+      // --- INIT ---
+      document.addEventListener("DOMContentLoaded", () => {
+        startLightningEffect();
+        startCountdown();
+        renderSummerIcons();
+        renderProducts(antiquedaProducts, "antiqueda-grid");
+        renderProducts(capsulasProducts, "capsulas-grid");
+        renderProducts(antiFrizzProducts, "antifrizz-grid");
+
+        // Initialize Lucide Icons
+        lucide.createIcons();
+      });
+    </script>
+  </body>
+</html>
