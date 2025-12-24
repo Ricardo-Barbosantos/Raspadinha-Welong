@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalBtn = document.getElementById('modal-claim-btn');
     if (modalBtn) {
         modalBtn.addEventListener('click', () => {
-            window.top.location.href = '/Oferta/index.html';
+            window.top.location.href = '/Oferta/';
         });
     }
 });
