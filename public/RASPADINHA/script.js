@@ -388,8 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalBtn = document.getElementById('modal-claim-btn');
     if (modalBtn) {
         modalBtn.addEventListener('click', () => {
-            document.getElementById('win-modal').classList.remove('visible');
-            alert('Prêmio resgatado! (Simulação)');
+            window.top.location.href = '/Oferta/index.html';
         });
     }
 });

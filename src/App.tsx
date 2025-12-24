@@ -16,6 +16,14 @@ const App = () => (
       <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Page3 />} />
+          <Route 
+            path="/Oferta" 
+            element={
+              <div dangerouslySetInnerHTML={{ 
+                __html: `<script>window.location.href = '/Oferta/index.html';</script>` 
+              }} />
+            } 
+          />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
