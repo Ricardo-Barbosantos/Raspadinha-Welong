@@ -20,7 +20,7 @@ const App = () => (
             path="/Oferta" 
             element={
               <div dangerouslySetInnerHTML={{ 
-                __html: `<script>window.location.href = '/Oferta/';</script>` 
+                __html: `<script>window.location.replace('/Oferta/');</script>` 
               }} />
             } 
           />
