@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Preload Coin Image
     const coinImg = new Image();
-    coinImg.src = 'coin_final_v2.png';
+    coinImg.src = 'coin_final_v2.webp';
 
     coinImg.onload = () => setTimeout(initGame, 50);
     coinImg.onerror = () => initGame();
